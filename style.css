@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.header{
+    height: auto;
+    width: 100%;
+
+    color: #fff;
+    padding: 0 7%;
+    position: relative;
+}
+nav{
+    width: 100%;
+    display: flex;
+    padding: 30px 0 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+.logo{
+    width: 260px;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(14, 14, 14);
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+nav ul li a:hover{
+    color: #ff3e3b;
+}
+body{
+    background:#e3def7;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+h1.contact{
+    font-family:sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 4px;
+    padding: 200px 0 100px;
+    color: #555;
+    text-align: center;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.contactme a{
+    display: flex;
+    background:#e3def7;
+    height: 75px;
+    width: 75px;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+a i{
+    font-size: 35px;
+    color:#777
+}
+a:hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+    inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+    -0.5px -0.5px 0px rgba(255,255,255,1),
+    0.5px 0.5px 0px rgba(0,0,0,0.15),
+    0px 12px 10px -10px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+}
+a:hover i{
+    transform: scale(0.90);
+}
+a:hover . fa-facebook{
+    color: #3b5998;
+}
+a:hover . fa-whatsapp{
+    color: #3b5998;
+}
+a:hover . fa-instagram{
+    color: #3b5998;
+}
+a:hover . fa-youtube{
+    color: #3b5998;
+}
+a:hover . fa-twitter{
+    color: #3b5998;
+}
+.profile-img{
+    width:40%;
+    float: right;
+}
+.profile-img img{
+    width: 50%;
+    height: 50%;
+}
+.about{
+    margin-left: 15px;
+}
+.profile-info{
+    width: 60%;
+    height: 100vh;
+    float: left;
+    padding: 0 30px;
+}
+.profile-info h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color:#555;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color:#555;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.about-text p{
+    color: rgba(129, 125, 129, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.title h2{
+    color:#555;
+    font-size: 75px;
+    text-transform: capitalize;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    text-align: center;
+    position: relative;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 0 8%;
+}
+.title h2::after{
+    content: '';
+    background: #303ef7;
+    width: 350px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:30px;
+}
+.serivice{
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transofrm 0.5s, background 0.5s;
+}
+.serivice i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color:#303ef7;
+}
+.serivice h2{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.serivice:hover{
+    background:#303ef7;
+    color: #fff;
+    transform: scale(1.05);
+}
+.serivice:hover i{
+    color:#fff;
+}
